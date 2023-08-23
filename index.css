@@ -1,0 +1,273 @@
+.main {
+  display: flex;
+}
+.leftnav {
+  width: 200px;
+  height: 600px;
+  background-color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.leftnav h2 {
+  color: #fff;
+  padding: 30px 40px;
+}
+.leftnav .headings {
+  display: flex;
+  margin-left: 40px;
+}
+.leftnav .headings img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.leftnav .headings p {
+  color: rgba(255, 255, 255, 1);
+  margin-top: -1px;
+  margin-left: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.help {
+  margin-top: 240px;
+  margin-left: 30px;
+}
+.help p {
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+.top {
+  margin-left: 40px;
+  display: flex;
+}
+body {
+  background-color: rgba(245, 245, 245, 1);
+}
+.top input {
+  width: 280px;
+  height: 40px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  margin-left: 400px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.top img {
+  height: 15px;
+  margin-left: -40px;
+  margin-top: 33px;
+  cursor: pointer;
+}
+.top .vector {
+  margin-left: 70px;
+  height: 22px;
+}
+.top .user {
+  margin-left: 20px;
+  border-radius: 50%;
+  height: 26px;
+  margin-top: 28px;
+}
+.boxes {
+  display: flex;
+  margin-top: 20px;
+}
+.boxes .subbox1 {
+  width: 200px;
+  height: 120px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.boxes .subbox1 img {
+  margin-left: 140px;
+  margin-top: 24px;
+}
+
+.boxes .subbox1 p {
+  font-size: 14px;
+  margin-top: -2px;
+  margin-left: 20px;
+}
+
+.boxes .subbox1 h1 {
+  margin-left: 20px;
+  font-size: 23px;
+}
+.activity {
+  width: 900px;
+  height: 270px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.firstact h1 {
+  font-size: 23px;
+  padding-top: 10px;
+}
+.firstact p {
+  font-size: 15px;
+  color: rgba(133, 133, 133, 1);
+}
+
+.activity .miniactivity {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.second .dot {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.second .dot1 {
+  height: 11px;
+  width: 11px;
+  background-color: rgba(155, 221, 124, 1);
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.second {
+  display: flex;
+}
+.second p {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+.second span {
+  margin-left: -10px;
+}
+.graph {
+  margin-left: 40px;
+}
+
+.graph p {
+  color: rgba(133, 133, 133, 1);
+  margin-top: 10px;
+}
+
+.graph hr {
+  color: rgba(234, 234, 234, 1);
+  margin: 0 30px;
+  margin-top: -25px;
+}
+.week {
+  display: flex;
+  color: rgba(133, 133, 133, 1);
+  font-size: 15px;
+  margin-left: 20px;
+}
+.week p {
+  padding-left: 150px;
+}
+.tree {
+  width: 430px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 40px;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 20px;
+}
+.topproduct p {
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.topproduct img {
+  margin-left: 20px;
+}
+.pants p {
+  color: rgba(133, 133, 133, 1);
+  font-size: 13px;
+  margin-left: 110px;
+}
+
+.basic {
+  height: 11px;
+  width: 11px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.minifooter {
+  margin-left: 30px;
+}
+.minifooter p {
+  margin-top: -20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.subfoot .p {
+  color: rgba(133, 133, 133, 1);
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+.tree1 {
+  width: 430px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 40px;
+  border-radius: 20px;
+  display: grid;
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+}
+.today1 h3 {
+  margin-left: 30px;
+}
+.today1 p {
+  font-size: 14px;
+  color: rgba(133, 133, 133, 1);
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.today1 {
+  justify-content: space-between;
+  display: flex;
+}
+.today2 h3 {
+  color: rgba(102, 102, 102, 1);
+  font-size: 17px;
+  margin-top: -12px;
+}
+.today2 {
+  margin-top: 10px;
+  margin-left: 20px;
+
+  height: 60px;
+}
+.today2 p {
+  color: rgba(153, 153, 153, 1);
+  margin-top: -12px;
+}
+.today {
+  margin-top: -30px;
+  margin-left: 20px;
+}
+.today3 h3 {
+  color: rgba(102, 102, 102, 1);
+  font-size: 17px;
+  margin-top: -12px;
+}
+.today3 p {
+  color: rgba(153, 153, 153, 1);
+  margin-top: -12px;
+}
+.today3 {
+  margin-left: 20px;
+}
